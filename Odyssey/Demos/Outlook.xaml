@@ -1,5 +1,5 @@
 ﻿<Window x:Class="Demos.Outlook" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:odc="clr-namespace:Odyssey.Controls;assembly=Odyssey"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:odc="http://schemas.odyssey.com/wpf"
         Title="Outlook Bar" Height="500" Width="640">
     <Grid>
         <Grid.RowDefinitions>

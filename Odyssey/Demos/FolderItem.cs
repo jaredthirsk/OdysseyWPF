@@ -6,6 +6,7 @@ using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 using System.Windows.Media;
 using System.IO;
+using System.Reflection;
 
 namespace Demos
 {
@@ -18,7 +19,7 @@ namespace Demos
             : base()
         {
             ImageSourceConverter isc = new ImageSourceConverter();
-            Image = isc.ConvertFrom("openfolderHS.png") as ImageSource;
+            Image = new BitmapImage(new Uri("openfolderHS.png", UriKind.Relative));
         }
     }
 }
